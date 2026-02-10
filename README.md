@@ -53,7 +53,7 @@ Add Beacon as a Swift Package dependency:
 ```swift
 // Package.swift
 dependencies: [
-    .package(url: "https://github.com/williamlaverty/Beacon.git", from: "1.0.0")
+    .package(url: "https://github.com/William-Laverty/Beacon.git", from: "1.0.0")
 ]
 ```
 
@@ -174,7 +174,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ### Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/williamlaverty/Beacon&root-directory=dashboard&env=NEXT_PUBLIC_SUPABASE_URL,SUPABASE_SERVICE_ROLE_KEY)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/William-Laverty/Beacon&root-directory=dashboard&env=NEXT_PUBLIC_SUPABASE_URL,SUPABASE_SERVICE_ROLE_KEY)
 
 Or manually:
 
