@@ -1,17 +1,17 @@
 # Beacon — Swift Analytics SDK
 
-A lightweight, Swift-first analytics SDK backed by Supabase. Track events from any macOS or iOS app with a simple API, and visualize them in a real-time web dashboard.
+Analytics for Swift apps that just works. Track user behavior that matters without the complexity.
 
-## Features
+Add Beacon to any macOS or iOS project with Swift Package Manager, point it at a Supabase table, and start tracking. Events are batched, persisted offline, and enriched with device context automatically. A included web dashboard lets you see everything at a glance.
 
-- **Swift-native SDK** — import via SPM, fire-and-forget API that never blocks your app
-- **Actor-based concurrency** — fully thread-safe with Swift's structured concurrency
-- **Automatic batching** — events are buffered and flushed in batches (configurable threshold and interval)
-- **Offline resilience** — unflushed events are persisted to disk and retried on next launch
-- **Debug logging** — toggle `os_log` output to see exactly what Beacon is sending
-- **Device enrichment** — every event is automatically tagged with OS, app version, device model, and locale
-- **Supabase backend** — zero server code to maintain, just a Postgres table with RLS
-- **Web dashboard** — Next.js + TailwindCSS with Apple glassmorphism design
+## Why Beacon
+
+- **Just works** — configure once, call `Beacon.track()`, done
+- **Never blocks your app** — fire-and-forget API powered by Swift actors
+- **Nothing gets lost** — events batch in memory, persist to disk on failure, and retry on next launch
+- **Context for free** — every event is tagged with OS, app version, device model, and locale
+- **No server to maintain** — Supabase handles storage, auth, and RLS out of the box
+- **See your data** — included Next.js dashboard with real-time metrics and event stream
 
 ## Quick Start
 
